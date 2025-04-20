@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/noorain/general practice/cse_1/sum'
+relocations:     []
+...
