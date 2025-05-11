@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int n , prime;
+    int n , prime=1;
     printf("enter a number");
     scanf("%d" , &n);
     if (n==0||n==1){
         printf("%d is not a prime no" , n);
     }
 
-    for(int i=2;i<=n;i++){
+    for(int i=2;i<n;i++){
      if (n%i==0 &&n!=2){
         prime=0;
      }
